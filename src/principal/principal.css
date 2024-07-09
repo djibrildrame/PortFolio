@@ -1,0 +1,245 @@
+body{
+background-color:#0a192f;
+color: white;
+ font-family: "Oswald", sans-serif;
+  
+}
+
+.logo{
+width: 25%;
+margin-left:40%;
+}
+
+.titre{
+    margin-left: 46%;
+    margin-top: -5%;
+    font-size: 30px;
+} 
+
+.titre1{
+    margin-left: 40%;
+    font-size: 30px;
+    color: rgb(100, 255, 218)
+} 
+
+.cercle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4%;
+
+}
+
+.bleu{ 
+    width: 6%;
+
+
+}
+
+.idee{
+   width: 40px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.explication{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*///////////////////////////*/
+
+.center-hr {
+    text-align: center;
+  }
+  
+  .horizontal-line {
+    width: 90%;
+    margin-top: 10px;
+  }
+  
+
+  .icone {
+    width: 150px;
+    margin-top: 5%;
+  }
+
+  .language{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+ .line1{
+    margin-top: 40px;
+ }
+
+ .language img:hover {
+    opacity: 0.8; /* Ou toute autre propriété CSS que vous souhaitez appliquer au survol */
+  }
+  /*/////////////////Que pourrions-nous faire ensemble ?///////////////*/
+
+  .dev{
+    font-size: 35px;
+    margin-top: 5%;
+    margin-left: 6%;
+   color: rgb(100, 255, 218)
+  }
+
+  .ensemble {
+    margin-left: 6%;
+    margin-top:1%;
+    font-size: 25px;
+  }
+  
+  .tof{
+    height: 300px;
+    border-radius: 50%; 
+    border: 2px solid rgb(100, 255, 218);
+    width: 270px;
+    margin-left: 70%;
+    margin-top: 4%;
+    object-fit: cover;
+    
+  }
+
+  .presentation{
+    margin-left: 6%;
+    margin-top: -20%;
+    font-size: 20Px;
+  }
+
+  .line2{
+    margin-top: 7%;
+  }
+
+
+
+ .realisation{
+  font-size: 35px;
+  margin-left: 6%;
+  margin-top: 3%;
+  color: rgb(100, 255, 218)
+ }
+
+ .mini{
+  margin-left: 6%;
+  font-size: 25px;
+ }
+
+ .Applicationbooki{
+  font-size: 26px;
+    margin-top: 9%;
+    margin-left: -2%;
+    position: absolute;
+ }
+
+ .tofbooki{
+  width: 500px;
+  height: 300Px;
+  margin-left: 6%;
+  margin-top: 3%;
+ }
+
+ .oeuvre{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ }
+
+ .descript{
+  margin-left: -23%;
+  margin-top: 35%;
+  font-size: 1.1rem;
+  color: rgb(136, 146, 176);
+ }
+
+ .consulter {
+  border: 1px solid white;
+  padding: 10px; /* Ajoutez un padding pour un meilleur espacement */
+  display: inline-block; /* Par défaut, les div sont des blocs, cette propriété permet de les afficher en ligne */
+  cursor: pointer; /* Ajoutez un curseur pointer pour indiquer qu'il s'agit d'un lien cliquable */
+  color: rgb(100, 255, 218);
+  margin-left: 7%;
+  text-decoration:none;
+}
+
+.consulter:hover{
+  background-color: grey;
+}
+
+.line3{
+ 
+    margin-top: 5%;
+  }
+
+  .particv {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .cv {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .titrecv {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .download {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .prendre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .lien-telechargement {
+    display: inline-block;
+    border: 3px solid rgb(100, 255, 218); /* Augmentez l'épaisseur de la bordure */
+    
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+  
+  .telechargement {
+    width: 100px;
+    margin-right: -8%;
+    color: white;
+  }
+  
+  .lien {
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    margin-top: -1%;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .download {
+      margin-top: 20px;
+    }
+  
+    .prendre {
+      flex-direction: row;
+    }
+  }
+  

@@ -15,6 +15,7 @@ import tofbooki from "./img/booki.png";
 import Cv from "./img/CV.pdf";
 import download from "./img/download.png";
 
+
 const cvPath = process.env.PUBLIC_URL + "/" + Cv;
 
 const Objectif = () => {
@@ -105,7 +106,7 @@ const Objectif = () => {
               incombe.
             </p>
 
-            <Link to="/Booki" className="consulter">
+            <Link to="/Mugipage" className="consulter">
               Consultez le projet
             </Link>
           </div>

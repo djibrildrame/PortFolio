@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {  Routes, Route } from "react-router-dom";
 import Tete from "./principal/Tete";
 import Slider from "./principal/Slide";
 import service from "./principal/img/services.jpeg";
@@ -9,14 +9,16 @@ import projet from "./principal/img/projet.png";
 import Booki from "./principal/pagesprojet/Booki";
 import Footer from "./principal/Footer";
 import Mugipage from "./principal/Mugipage";
-import ProjectPage from "./principal/Video";
+import ServicePage from "./principal/Service";
+import ContactPage from "./principal/Contact";
+import Video from "./principal/Video";
 
 const images = [projet, service, contact];
-const titles = ["mugi", "service", "contact"];
+const titles = ["Mugipage", "ServicePage", "ContactPage"];
 
 function App() {
   return (
-    <Router>
+
       <div className="App">
         <Routes>
           <Route path="/" element={
@@ -29,11 +31,14 @@ function App() {
           } />
           <Route path="/Booki" element={<Booki />} />
           <Route path="/Mugipage" element={<Mugipage />} />
-          <Route path="/projet/:id" element={<ProjectPage />} />
+          <Route path="/service" element={<ServicePage/>} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/projet/:id" element={<Video />} />
         </Routes>
       </div>
-    </Router>
+  
   );
 }
 
 export default App;
+

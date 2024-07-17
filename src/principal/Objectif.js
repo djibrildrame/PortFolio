@@ -14,6 +14,7 @@ import djiby from "./img/djiby.jpg";
 import tofbooki from "./img/booki.png";
 import Cv from "./img/CV.pdf";
 import download from "./img/download.png";
+import Mugipage from "./Mugipage";
 
 
 const cvPath = process.env.PUBLIC_URL + "/" + Cv;
@@ -107,7 +108,7 @@ const Objectif = () => {
             </p>
 
             <Link to="/Mugipage" className="consulter">
-              Consultez le projet
+              Consulter le projet
             </Link>
           </div>
         </div>

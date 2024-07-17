@@ -1,9 +1,12 @@
+.logo{}
+
 .mugi-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     padding: 20px;
+    margin-top: 2%;
   }
   
   .mugi-item {
@@ -24,7 +27,11 @@
   .mugi-item h3 {
     padding: 10px;
     font-size: 18px;
-    color: #333;
+    color: white;
+  }
+
+  .mugi-item h3:hover{
+   color:  rgb(100, 255, 218);
   }
   
   .consulter {
@@ -40,4 +47,10 @@
   .consulter:hover {
     background-color: #0056b3;
   }
+  
+
+.sst{
+  margin-left: 12%;
+  font-size: 27px;
+}
   

@@ -7,6 +7,9 @@ import BookieImg from "./IMGprojet/Bookiphoto.png";
 import Instagram from "./IMGprojet/Instaphoto.png";
 import Print from "./IMGprojet/Printphoto.png";
 import Formulaire from "./IMGprojet/Formulairephoto.png";
+import logo from "./IMGprojet/logo.png"
+
+
 
 const Mugipage = () => {
   const projets = [
@@ -18,7 +21,13 @@ const Mugipage = () => {
     { id: 6, title: "Formulaire", img: Formulaire, video: "Formulaire.mov" }
   ];
 
+
+
+
   return (
+<div>
+  <img className="logo" src={logo} alt="logo principal"/>
+  <div className="sst">Voici mes projets réalisés, illustrant ma créativité et mes compétences techniques :  </div>
     <div className="mugi-container">
       {projets.map((projet) => (
         <div key={projet.id} className="mugi-item">
@@ -28,6 +37,7 @@ const Mugipage = () => {
           <h3>{projet.title}</h3>
         </div>
       ))}
+    </div>
     </div>
   );
 };

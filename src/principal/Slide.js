@@ -1,9 +1,8 @@
-// Slider.js
 import React from "react";
-import gauche from "./img/gauche.png";
-import droite from "./img/droite.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import gauche from "./img/gauche.png";
+import droite from "./img/droite.png";
 import "./Slider.css";
 
 const Slider = ({ images, titles }) => {

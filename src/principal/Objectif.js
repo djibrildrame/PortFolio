@@ -12,12 +12,9 @@ import css from "./img/css.png";
 import node from "./img/node.png";
 import djiby from "./img/djiby.jpg";
 import tofbooki from "./img/booki.png";
-import Cv from "./img/CV.pdf";
 import download from "./img/download.png";
-import Mugipage from "./Mugipage";
 
-
-const cvPath = process.env.PUBLIC_URL + "/" + Cv;
+const cvPath = process.env.PUBLIC_URL + "/CVDjibril.pdf";
 
 const Objectif = () => {
   return (
@@ -126,7 +123,7 @@ const Objectif = () => {
         </div>
         <div className="download">
           <div className="prendre">
-            <a href={cvPath} download={Cv} className="lien-telechargement">
+            <a href={cvPath} download className="lien-telechargement">
               <img
                 className="telechargement"
                 src={download}

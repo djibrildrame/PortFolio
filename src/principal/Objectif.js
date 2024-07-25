@@ -104,7 +104,7 @@ const Objectif = () => {
               incombe.
             </p>
 
-            <Link to="/Mugipage" className="consulter">
+            <Link to="/projet" className="consulter">
               Consulter le projet
             </Link>
           </div>

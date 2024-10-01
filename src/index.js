@@ -1,5 +1,5 @@
 import React from "react";
-import { render } from "react-dom"; // Utilisez 'render' au lieu de 'react-dom/client'
+import { render } from "react-dom";
 import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";

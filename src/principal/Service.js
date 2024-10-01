@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "./IMGprojet/logo.png"
+import logo from "./IMGprojet/logo.png";
 import './Service.css';
 
 const Service = () => {

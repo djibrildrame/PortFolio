@@ -13,6 +13,7 @@ import node from "./img/node.png";
 import djiby from "./img/djiby.jpg";
 import tofbooki from "./img/booki.png";
 import download from "./img/download.png";
+import php from "./img/php-removebg-preview.png"
 
 const cvPath = process.env.PUBLIC_URL + "/CVDjibril.pdf";
 
@@ -56,6 +57,7 @@ const Objectif = () => {
         <img className="icone" src={js} alt="JavaScript" />
         <img className="icone" src={css} alt="CSS" />
         <img className="icone" src={html} alt="HTML" />
+        <img className="icone" src={php} alt="php" />
       </div>
       <div className="center-hr">
         <hr className="horizontal-line line1" />

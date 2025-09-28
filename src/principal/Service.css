@@ -1,0 +1,132 @@
+
+
+.services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #0a192f;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -6%;
+}
+    
+  .services-container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(100, 255, 218);
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .service-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-item h2 {
+    font-size: 1.8rem;
+    color: #0056b3;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .service-item p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .service-item ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .service-item ul li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .service-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  
+  /* Button styles */
+  .consulter {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 34%;
+  }
+  
+  .consulter:hover {
+    background-color: #003d80;
+  }
+  
+  /* Contact.css */
+.contact-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.personal-info, .form-section {
+  margin-bottom: 30px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.personal-info p {
+  margin: 5px 0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+h2 , h1{
+  color: rgb(100, 255, 218);
+}

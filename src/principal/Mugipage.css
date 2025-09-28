@@ -1,0 +1,70 @@
+.logo{}
+
+.mugi-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 2%;
+  }
+  
+  .mugi-item {
+    width: 320px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mugi-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .mugi-item h3 {
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+  }
+
+  .mugi-item h3:hover{
+   color:  rgb(100, 255, 218);
+  }
+  
+  .consulter {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .consulter:hover {
+    background-color: #0056b3;
+  }
+  
+
+.sst{
+  margin-left: 12%;
+  font-size: 27px;
+}
+  
+.video{
+  margin-left: 10%;
+}
+
+.param{
+  margin-left: 15%;
+ font-size: 35px;
+ color: rgb(100, 255, 218);
+}
+
+h4{
+  margin-left: 15%;
+  font-size: 20px;
+}
